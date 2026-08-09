@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mistfallhunterhub.com/sitemap.xml
+Sitemap: https://mistfall-hunter-duanjun02-blips-projects.vercel.app/sitemap.xml

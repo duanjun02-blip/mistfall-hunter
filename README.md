@@ -16,5 +16,5 @@ Open `index.html` in a browser, or run `python -m http.server 8080` from this fo
 
 ## TODO
 - Remaining inner pages: walkthrough, class abilities, shadowstrix build, moonlight nectar, sprint, player count, ps5, review, gyldenblod
-- Live URL: https://mistfall-hunter-duanjun02-blips-projects.vercel.app (Vercel) — GitHub: https://github.com/duanjun02-blip/mistfall-hunter
+- Live URL: https://mistfall-hunter-seven.vercel.app (Vercel) — GitHub: https://github.com/duanjun02-blip/mistfall-hunter
 - Deploy on Vercel/Cloudflare, connect GSC + GA (关卡 5)

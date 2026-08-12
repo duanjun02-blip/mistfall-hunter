@@ -1,3 +1,36 @@
+# Mistfall Hunter Hub - robots.txt
+# 策略：屏蔽 AI 训练爬虫，放行 AI 检索爬虫与搜索引擎（参考猎者出海 GEO 笔记）
+
+# --- AI 训练爬虫（屏蔽）---
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# --- AI 检索爬虫（放行，会标注来源回链）---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# --- 其他（含 Googlebot / Bingbot 等搜索引擎，全部放行）---
 User-agent: *
 Allow: /
 

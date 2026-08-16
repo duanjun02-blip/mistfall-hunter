@@ -127,7 +127,7 @@ kbd{background:var(--surface-2);border:1px solid var(--border);border-bottom-wid
 @media(max-width:760px){.footer-inner{grid-template-columns:1fr}}
 
 /* ---------- Special blocks ---------- */
-.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:start}
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
 .hero-panel{background:hsl(258 22% 11% / .9);border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:0 20px 50px hsl(258 40% 2% / .6)}
 .hero-panel h3{font-size:15px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
@@ -163,3 +163,5 @@ kbd{background:var(--surface-2);border:1px solid var(--border);border-bottom-wid
 .page-hero{background:radial-gradient(700px 300px at 80% -20%, hsl(262 55% 28% / .5), transparent 60%), var(--bg-soft);border-bottom:1px solid var(--border);padding:38px 0 34px}
 .page-hero h1{margin-top:4px}
 .page-hero .lede{margin-bottom:0}
+.hero-shot{margin-top:26px;border-radius:16px;overflow:hidden;border:1px solid var(--border);box-shadow:0 18px 40px hsl(258 40% 2% / .5)}
+.hero-shot img{display:block;width:100%;height:380px;object-fit:cover}

@@ -95,6 +95,7 @@ td b{color:var(--text)}
 
 /* ---------- Prose / article ---------- */
 .page{padding:44px 0 70px}
+.ad-slot{text-align:center;margin:6px auto 28px;min-height:90px;overflow:hidden}
 .breadcrumbs{font-size:13.5px;color:var(--muted);margin-bottom:14px}
 .breadcrumbs a{color:var(--muted)}
 .breadcrumbs a:hover{color:var(--gold)}

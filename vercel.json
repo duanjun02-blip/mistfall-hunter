@@ -1,7 +1,20 @@
 {
   "redirects": [
     {
-      "source": "/__codebuff_diag__",
+      "source": "/__t1/:path*",
+      "has": [{ "type": "host", "value": "mistfall-hunter-seven.vercel.app" }],
+      "destination": "https://mistfallhunterhub.site/",
+      "permanent": true
+    },
+    {
+      "source": "/__t2/:path*",
+      "has": [{ "type": "header", "key": "host", "value": "mistfall-hunter-seven.vercel.app" }],
+      "destination": "https://mistfallhunterhub.site/",
+      "permanent": true
+    },
+    {
+      "source": "/__t3/:path*",
+      "has": [{ "type": "header", "key": "x-forwarded-host", "value": "mistfall-hunter-seven.vercel.app" }],
       "destination": "https://mistfallhunterhub.site/",
       "permanent": true
     }

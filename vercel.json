@@ -1,15 +1,15 @@
 {
   "redirects": [
     {
-      "source": "/__t1/:path*",
+      "source": "/:path*",
       "has": [{ "type": "host", "value": "mistfall-hunter-seven.vercel.app" }],
       "destination": "https://mistfallhunterhub.site/",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "mistfall-hunter-seven.vercel.app" }],
-      "destination": "https://mistfallhunterhub.site/:path*",
+      "has": [{ "type": "host", "value": "mistfall-hunter-duanjun02-blips-projects.vercel.app" }],
+      "destination": "https://mistfallhunterhub.site/",
       "permanent": true
     }
   ]
